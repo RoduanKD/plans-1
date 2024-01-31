@@ -20,7 +20,7 @@ Iprop\Plans\PlansServiceProvider::class,
 
 Publish the config file & migration files:
 ```bash
-$ php artisan vendor:publish
+$ php artisan vendor:publish --provider="Iprop\Plans\PlansServiceProvider"
 ```
 
 Migrate the database:
